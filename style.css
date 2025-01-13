@@ -26,6 +26,8 @@ nav a {
     max-width: 150px;
     margin-right: 20px;
     cursor: pointer;
+    border-color: black;
+    border-style: solid;
 }
 
 .top-banner {
