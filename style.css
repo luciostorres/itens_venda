@@ -126,7 +126,7 @@ nav a {
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 60px;
   }
   
   .sidenav a {
@@ -161,10 +161,14 @@ nav a {
   
 /* For mobile phones */
 @media screen and (max-width: 768px) {
+
+    /* Make the sidenav responsive */
     .sidenav {
         width: 100%;
+        z-index: 1;
         height: auto;
         position: relative;
+        padding-top: 100px;
     }
     .sidenav a {
         float: none;
@@ -182,9 +186,53 @@ nav a {
         max-width: 100%;
         height: auto;
     }
-    
-    /* Adjust modal for mobile */
+
+    /* Fix modal for mobile */
+    .modal {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .modal-content {
-        width: 90%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mySlides {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .mySlides img {
+        max-width: 95%;
+        max-height: 90vh;
+        object-fit: contain;
+        margin: auto;
+        padding-top: 50%;
+    }
+
+    /* Adjust navigation buttons */
+    .prev, .next {
+        padding: 16px;
+        margin: 0 10px;
+    }
+
+    /* Adjust close button */
+    .close {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        font-size: 35px;
+        z-index: 2;
     }
 }
