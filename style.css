@@ -161,11 +161,8 @@ nav a {
   
 /* For mobile phones */
 @media screen and (max-width: 768px) {
-
-    /* Make the sidenav responsive */
     .sidenav {
         width: 100%;
-        z-index: 1;
         height: auto;
         position: relative;
         padding-top: 100px;
@@ -186,13 +183,19 @@ nav a {
         max-width: 100%;
         height: auto;
     }
-
+    
     /* Fix modal for mobile */
     .modal {
+        display: none; /* Ensure modal starts hidden */
         padding: 0;
-        display: flex;
         align-items: center;
         justify-content: center;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .modal.show {
+        display: flex; /* Only show when .show class is added via JavaScript */
     }
 
     .modal-content {
