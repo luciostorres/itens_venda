@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anúncio de Itens à Venda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-banner">
+        Retirada por conta do comprador, podendo ser conversado e combinado da melhor forma.
+        <br>Preços são negociáveis. Quaisquer dúvidas, entre em contato pelo WhatsApp: 
+        <a href="https://wa.me/5521967184525" target="_blank">+55 21 96718-4525</a>
+    </div>
+
+    <div class="sidenav" style="padding-top: 60px;">
+        <a href="#aspirador">Aspirador</a>
+        <a href="#microondas">Microondas</a>
+        <a href="#cafeteira">Cafeteira</a>
+        <a href="#grill">Grill e Sanduicheira</a>
+        <a href="#liquidificador">Liquidificador</a>
+        <a href="#expremedor">Expremedor de Fruta</a>
+        <a href="#batedeira">Batedeira</a>
+        <a href="#panelaEletrica">Panela Elétrica</a>
+        <a href="#chaleiraEletrica">Chaleira Elétrica</a>
+        <a href="#ferroPassar">Ferro de Passar Roupa</a>
+        <a href="#fogao">Fogão 4 bocas</a>
+        <a href="#ventilador">Ventilador</a>
+        <a href="#cama">Cama</a>
+        <a href="#mesaPC">Mesa PC</a>
+        <a href="#guardaRoupa">Guarda-Roupa</a>
+    </div>
+    
+    <div class="main" style="margin-top: 60px;">
+        <div class="item" id="aspirador">
+            <img src="img/aspirador.jpg" alt="Imagem do Aspirador" onclick="openModal();currentSlide(1)">
+            <div>
+                <h2>Aspirador</h2>
+                <p>WAP Aspirador de Pó Vertical e Portátil de Mão 2 em 1 1000W 1,2 litros Filtro HEPA WAP HIGH SPEED 127V.</p>
+                <p>Preço: R$110,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="microondas">
+            <img src="img/microondas.jpg" alt="Imagem do Microondas" onclick="openModal();currentSlide(2)">
+            <div>
+                <h2>Microondas</h2>
+                <p>Forno Micro-ondas 35L Prata Espelhado Midea 127V MXSA35S1.</p>
+                <p>Preço: R$400,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="cafeteira">
+            <img src="img/cafeteira.jpg" alt="Imagem da Cafeteira" onclick="openModal();currentSlide(3)">
+            <div>
+                <h2>Cafeteira</h2>
+                <p>Cafeteira Elétrica Programável Electrolux Experience ECM25 + 30 Cafés Granite Gray.</p>
+                <p>Preço: R$165,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="grill">
+            <img src="img/grill.jpg" alt="Imagem do Grill e Sanduicheira" onclick="openModal();currentSlide(4)">
+            <div>
+                <h2>Grill e Sanduicheira</h2>
+                <p>Grill e Sanduicheira Fama FGR01.</p>
+                <p>Preço: R$50,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="liquidificador">
+            <img src="img/liquidificador.jpg" alt="Imagem do Liquidificador" onclick="openModal();currentSlide(5)">
+            <div>
+                <h2>Liquidificador</h2>
+                <p>Liquidificador Britânia Diamante 900w Turbo.</p>
+                <p>Preço: R$55,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="expremedor">
+            <img src="img/expremedor.jpg" alt="Imagem do Expremedor de Fruta" onclick="openModal();currentSlide(6)">
+            <div>
+                <h2>Expremedor de Fruta</h2>
+                <p>Expremedor de fruta Britânia Bellagio Maxx 35w</p>
+                <p>Preço: R$50,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="batedeira">
+            <img src="img/batedeira.jpg" alt="Imagem da Batedeira" onclick="openModal();currentSlide(7)">
+            <div>
+                <h2>Batedeira</h2>
+                <p>Batedeira Britânia Bellagio Cristal.</p>
+                <p>Preço: R$85,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="panelaEletrica">
+            <img src="img/panela_eletrica.jpg" alt="Imagem da Panela Elétrica" onclick="openModal();currentSlide(8)">
+            <div>
+                <h2>Panela Elétrica</h2>
+                <p>Panela elétrica Britânia Super Chef Ceramic BPE05V.</p>
+                <p>Preço: R$160,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="chaleiraEletrica">
+            <img src="img/chaleira.jpg" alt="Imagem da Chaleira Elétrica" onclick="openModal();currentSlide(9)">
+            <div>
+                <h2>Chaleira Elétrica</h2>
+                <p>Chaleira elétrica Britânia BCH03P.</p>
+                <p>Preço: R$55,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="ferroPassar">
+            <img src="img/ferro.jpg" alt="Imagem do Ferro de Passar Roupa" onclick="openModal();currentSlide(10)">
+            <div>
+                <h2>Ferro de Passar Roupa</h2>
+                <p>Ferro de Passar Roupa Electrolux SIV10.</p>
+                <p>Preço: R$80,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="fogao">
+            <img src="img/fogao.jpg" alt="Imagem do Fogão 4 bocas" onclick="openModal();currentSlide(11)">
+            <div>
+                <h2>Fogão</h2>
+                <p>Fogão 4 Bocas Atlas Coliseum Plus Preto Mesa De Inox Bivolt.</p>
+                <p>Preço: R$320,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="ventilador">
+            <img src="img/ventilador.jpg" alt="Imagem do Ventilador" onclick="openModal();currentSlide(12)">
+            <div>
+                <h2>Ventilador</h2>
+                <p>Ventilador de Coluna Britânia BVT450 Maxx Force 160W 127V.</p>
+                <p>Preço: R$150,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="cama">
+            <img src="img/cama.jpg" alt="Imagem da Cama" onclick="openModal();currentSlide(13)">
+            <div>
+                <h2>Cama</h2>
+                <p>"BOX 79 VIERO MUSTANG VELUDO PRETO ALT 42.</p>
+                <p>Colchão Queen Size Vian Mustang com Molas Ensacadas, Euro Pillow e Tecido em Malha".</p>
+                <p>Preço: R$900,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="mesaPC">
+            <img src="img/mesaPC.jpg" alt="Imagem da Mesa PC" onclick="openModal();currentSlide(14)">
+            <div>
+                <h2>Mesa PC</h2>
+                <p>Mesa De Computador Gamer Fellicci Móveis 1 Gaveta 150cm.</p>
+                <p>Preço: R$200,00</p>
+            </div>
+        </div>
+
+        <div class="item" id="guardaRoupa">
+            <img src="img/guarda_roupa.jpg" alt="Imagem do Guarda-Roupa" onclick="openModal();currentSlide(15)">
+            <div>
+                <h2>Guarda-Roupa</h2>
+                <p>Guarda-Roupa Casal 6 Portas Falco Yescasa.</p>
+                <p>Preço: R$300,00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal e scripts -->
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <img src="img/aspirador.jpg" alt="Imagem do Aspirador">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/microondas.jpg" alt="Imagem do Microondas">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/cafeteira.jpg" alt="Imagem da Cafeteira">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/grill.jpg" alt="Imagem do Grill e Sanduicheira">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/liquidificador.jpg" alt="Imagem do Liquidificador">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/expremedor.jpg" alt="Imagem do Expremedor de Fruta">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/batedeira.jpg" alt="Imagem da Batedeira">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/panela_eletrica.jpg" alt="Imagem da Panela Elétrica">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/chaleira.jpg" alt="Imagem da Chaleira Elétrica">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/ferro.jpg" alt="Imagem do Ferro de Passar Roupa">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/fogao.jpg" alt="Imagem do Fogão 4 bocas">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/ventilador.jpg" alt="Imagem do Ventilador">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/cama.jpg" alt="Imagem da Cama">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/mesaPC.jpg" alt="Imagem da Mesa PC">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/guarda_roupa.jpg" alt="Imagem do Guarda-Roupa">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+
+
+    <script>
+    function openModal() {
+    document.getElementById('myModal').style.display = "block";
+    }
+
+    function closeModal() {
+    document.getElementById('myModal').style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
+    }
+    </script>  
+    <!-- ... -->
+
+</body>
+</html>
