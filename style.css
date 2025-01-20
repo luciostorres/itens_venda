@@ -40,6 +40,27 @@ nav a {
     border-style: solid;
 }
 
+.vendido {
+    position: relative;
+}
+
+.vendido::before {
+    content: "VENDIDO";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.vendido p {
+    color: red;
+}
+
 .top-banner {
     position: fixed;
     top: 0;
