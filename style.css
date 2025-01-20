@@ -61,6 +61,10 @@ nav a {
     color: red;
 }
 
+.vendido h2 {
+    color: red;
+}
+
 .top-banner {
     position: fixed;
     top: 0;
