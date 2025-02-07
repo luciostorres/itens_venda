@@ -288,3 +288,7 @@ nav a {
         height: auto;
     }
 }
+
+.hidden {
+    display: none;
+}
